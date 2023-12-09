@@ -18,7 +18,7 @@ class RedisViewServeProvider extends ServiceProvider
     {
         $this->registerRoutes();
         $this->registerCommands();
-        $this->loadViewsFrom(__DIR__.'\resources\views', 'redis-view');
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'redis-view');
     }
 
     /**
@@ -29,7 +29,7 @@ class RedisViewServeProvider extends ServiceProvider
     private function registerRoutes()
     {
         Route::group($this->routeConfiguration(), function () {
-            $this->loadRoutesFrom(__DIR__.'\routes\route.php');
+            $this->loadRoutesFrom(__DIR__.'/routes/route.php');
         });
     }
 
