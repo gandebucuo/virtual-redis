@@ -23,6 +23,8 @@ php artisan redis-view:install
 ```
 http://127.0.0.1:8000/redis-view
 ```
+#### 页面
+![视图](http://xiaonarun.oss-cn-beijing.aliyuncs.com/redis.png)
 
 # 联系我们
 如需丰富扩展/其他业务/建议，请直接向1059636119@qq.com 发送邮箱；或添加微信，请说明来意奥
