@@ -1,0 +1,24 @@
+{
+    "name": "virtual/redis",
+    "description": "Laravel Redis View",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VirtualRedis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "干的不错",
+            "email": "1059636119@qq.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+               "VirtualRedis\\RedisViewServeProvider"
+            ]
+        }
+    }
+}
