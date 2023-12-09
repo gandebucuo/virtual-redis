@@ -49,7 +49,7 @@ class InstallProvider extends Command
             File::put($appConfigPath, $appConfigContent);
         }
 
-        $providerPath = "App/Providers/RedisViewServiceProvider.php";
+        $providerPath = "app/Providers/RedisViewServiceProvider.php";
         if ($this->filesystem->exists($providerPath)) {
             $this->error("RedisViewServiceProvider already exists!");
             return;
